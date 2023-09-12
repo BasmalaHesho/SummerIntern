@@ -1,6 +1,6 @@
 ﻿namespace Employees.Data.Entities
 {
-    public class Departmenets
+    public class Departments
     {
         public Guid DepId { get; set; }
         public string DepName { get; set; }

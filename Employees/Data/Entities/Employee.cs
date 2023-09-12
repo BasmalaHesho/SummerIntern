@@ -17,7 +17,7 @@ namespace Employees.Data.Entities
         public Guid DepId { get; set; }
 
         [ForeignKey(nameof(DepId))]
-        public required Departmenets Departments { get; set; }
+        public required Departments Departments { get; set; }
 
     }
 }
